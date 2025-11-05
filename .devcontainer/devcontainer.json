@@ -1,0 +1,50 @@
+{
+  "name": "Python Starter",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.testing.pytestEnabled": true,
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestArgs": [
+          "tests"
+        ],
+        "python.terminal.activateEnvironment": true,
+        "editor.formatOnSave": true,
+        "python.formatting.provider": "none",
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.python",
+          "editor.tabSize": 4
+        },
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "editor.minimap.enabled": false,
+        "editor.inlineSuggest.enabled": false,
+        "github.copilot.enable": {
+          "*": false
+        },
+        "editor.quickSuggestions": {
+          "other": false,
+          "comments": false,
+          "strings": false
+        },
+        "editor.suggest.showWords": false,
+        "editor.parameterHints.enabled": false,
+        "editor.wordBasedSuggestions": "off",
+        "editor.acceptSuggestionOnEnter": "off"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  },
+
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
+
+  "forwardPorts": [],
+
+  "remoteUser": "vscode"
+}
