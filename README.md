@@ -16,6 +16,17 @@ Welcome! This is your starting point for Python programming projects. Everything
 
 **That's it!** Your environment is ready. All the tools you need are already installed.
 
+### What's Installed in Your Codespace?
+
+Your coding environment includes these helpful tools:
+- **Python Test Explorer** - See and run your tests with a visual interface (look for the beaker icon 🧪 in the sidebar)
+- **Python Debugger** - Step through your code line by line to find bugs
+- **Spell Checker** - Helps catch typos in your code and comments
+- **Auto Indent** - Automatically formats your Python code properly
+- **Type Checking** - Alerts you to potential errors before you run your code
+
+All AI assistance (like Copilot) is turned off so you can learn by doing!
+
 ## 💻 Running Your First Program
 
 Once your Codespace is ready:
@@ -33,7 +44,9 @@ Once your Codespace is ready:
 
 ## ✅ Running Tests
 
-Tests help make sure your code works correctly. To run the tests:
+Tests help make sure your code works correctly. You can run tests in two ways:
+
+### Option 1: Using the Terminal (Command Line)
 
 1. In the terminal, type:
    ```bash
@@ -46,6 +59,16 @@ To see more details about what each test does:
 ```bash
 pytest -v
 ```
+
+### Option 2: Using the Test Explorer (Visual)
+
+1. Click the beaker/flask icon 🧪 in the left sidebar (Testing)
+2. You'll see a list of all your tests
+3. Click the ▶️ play button next to a test to run it
+4. Green checkmarks ✓ mean the test passed!
+5. This is a great way to see which tests pass and which fail
+
+**Tip:** The Test Explorer automatically discovers new tests when you save your files!
 
 ## 📁 What's in This Project?
 
