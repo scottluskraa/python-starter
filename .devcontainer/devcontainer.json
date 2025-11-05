@@ -12,10 +12,8 @@
           "tests"
         ],
         "python.terminal.activateEnvironment": true,
-        "editor.formatOnSave": true,
-        "python.formatting.provider": "none",
+        "editor.formatOnSave": false,
         "[python]": {
-          "editor.defaultFormatter": "ms-python.python",
           "editor.tabSize": 4
         },
         "files.autoSave": "afterDelay",
