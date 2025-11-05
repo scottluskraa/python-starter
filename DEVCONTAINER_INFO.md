@@ -19,28 +19,32 @@ The following extensions are automatically installed in the Codespace to help st
    - Allows students to set breakpoints and step through code
    - Essential for learning debugging skills
 
+### Code Formatting Extensions
+4. **ms-python.black-formatter** - Black Python formatter
+   - Automatically formats Python code to follow best practices
+   - Enforces consistent style (88 character line length)
+   - Works with format-on-save feature
+
+5. **esbenp.prettier-vscode** - Prettier formatter
+   - Formats non-Python files (JSON, Markdown, etc.)
+   - Ensures consistent formatting across all file types
+
 ### Testing Extensions
-4. **littlefoxteam.vscode-python-test-adapter** - Python Test Explorer
+6. **littlefoxteam.vscode-python-test-adapter** - Python Test Explorer
    - Visual interface for running tests (beaker icon in sidebar)
    - Makes it easy to see which tests pass/fail
    - Automatically discovers pytest tests
 
 ### Helper Extensions
-5. **donjayamanne.python-environment-manager** - Environment Manager
-   - Helps manage Python environments
-   - Shows active Python interpreter
-
-6. **njpwerner.autodocstring** - Auto Docstring
+7. **njpwerner.autodocstring** - Auto Docstring
    - Helps generate docstrings for functions
    - Teaches students proper documentation practices
-
-7. **kevinrose.vsc-python-indent** - Python Indent
-   - Automatically handles Python indentation correctly
-   - Reduces common beginner syntax errors
 
 8. **streetsidesoftware.code-spell-checker** - Spell Checker
    - Catches typos in code, comments, and strings
    - Helps students write clean, professional code
+
+**Note:** The Environment Manager extension was removed as VS Code's built-in Python extension already provides environment selection in the status bar.
 
 ## Disabled Features (For Learning)
 
@@ -58,12 +62,15 @@ Students must type code themselves and think through problems independently.
 ### Visual Aids
 - **Bracket Pair Colorization** - Makes matching brackets easier to see
 - **Bracket Pair Guides** - Shows vertical lines connecting bracket pairs
-- **80-character Ruler** - Helps students learn good line length practices
+- **88-character Ruler** - Helps students learn Black's line length standard
 - **Whitespace Rendering** - Shows spaces/tabs at boundaries
 
-### Auto-Save
+### Auto-Save and Formatting
 - Files auto-save after 1 second of inactivity
-- Reduces risk of lost work
+- **Format on Save enabled** - Code is automatically formatted when you save
+- Black formatter for Python (88 character line length)
+- Prettier formatter for other file types
+- Reduces risk of lost work and teaches proper formatting
 
 ### Testing Features
 - **Auto Test Discovery** - Tests are automatically found when files are saved

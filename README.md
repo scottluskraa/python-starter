@@ -22,7 +22,7 @@ Your coding environment includes these helpful tools:
 - **Python Test Explorer** - See and run your tests with a visual interface (look for the beaker icon 🧪 in the sidebar)
 - **Python Debugger** - Step through your code line by line to find bugs
 - **Spell Checker** - Helps catch typos in your code and comments
-- **Auto Indent** - Automatically formats your Python code properly
+- **Auto-Formatting** - Your code is automatically formatted to look professional when you save (using Black and Prettier)
 - **Type Checking** - Alerts you to potential errors before you run your code
 
 All AI assistance (like Copilot) is turned off so you can learn by doing!
